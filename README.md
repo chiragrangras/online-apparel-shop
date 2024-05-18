@@ -12,4 +12,4 @@ Developed a front-end demo application for an online apparel shop using React. T
 
 ## Public Link
 
-Here is the link to view this project live: [Online Apparel Shop|https://stirring-chimera-fc8c36.netlify.app/]
+Here is the link to view this project live: [Online Apparel Shop](https://stirring-chimera-fc8c36.netlify.app/)
