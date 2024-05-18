@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Jon",
+      "email": "jon23@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "4774",
+      "name": "Max",
+      "email": "max@23@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "0e6c",
+      "name": "chirag",
+      "email": "chirag@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "ac63",
+      "name": "deepak",
+      "email": "rajput1298@gmail.com",
+      "password": "hello123"
+    },
+    {
+      "id": "1eb7",
+      "name": "Vishal",
+      "email": "vishal.rangras02@gmail.com",
+      "password": "4564646"
+    },
+    {
+      "id": "5949",
+      "name": "vyas helly",
+      "email": "vyashelly@gmail.com",
+      "password": "apple@2022"
+    },
+    {
+      "id": "795c",
+      "name": "sandhya",
+      "email": "madhasandhya1@gmail.com",
+      "password": "sanu@123"
+    }
+  ]
+}

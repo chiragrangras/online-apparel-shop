@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.logo{
+  padding: 10px 20px;
+}
+
+.price{
+  color: red;
+}
+
+.box-purple{
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid black;
+  background-color: red;
+}
+
+.box-green{
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid black;
+  background-color: green;
+}
+
+.box-Ferozi{
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid black;
+  background-color: #57e9f6;
+}
+
+.post_order_info{
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  width: 1000px;
+  height: 220px;
+  justify-content: start;
+  background-color:#F2F4F4;
+  color: black;
+}
+
+.Search-text{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.Input_text{
+  margin: 20px 0px 0px 20px;
+}
+
+.Sell_title{
+  color: #9c0000;
+  text-transform: uppercase;
+}
+
+.Mob{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.Mob a{
+  text-decoration: none;
+  color: black;
+}
+
+.Email{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.Email a{
+  text-decoration: none;
+  color: black;
+}
+
+.Address{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.Address p{
+  text-decoration: none;
+  color: black;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

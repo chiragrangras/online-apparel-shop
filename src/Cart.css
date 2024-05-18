@@ -1,0 +1,25 @@
+.cart{
+    width: 80%;
+    min-height: 450px;    
+    text-align: center;
+    color:rgba(33, 37, 41, 1);
+}
+.line{
+    border:1px solid black;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.w-15{
+    width: 15%;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.signup_box{
+    width: 480px;
+    height: 670px;
+    /* margin:40px 0px 20px 300px; */
+    text-align: center;
+    background-color: white;
+}
+.registration{
+    text-align: center;
+}
