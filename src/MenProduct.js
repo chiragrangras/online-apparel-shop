@@ -5,9 +5,14 @@ import Footer from "./Footer";
 import Header from "./Header";
 import { useContext } from "react";
 import { CartDetails } from "./App";
+import { toast } from "react-toastify";
 
 function MenProduct() {
   const { cartDetail, setCartDetail } = useContext(CartDetails);
+
+  const notifyCartAdded = () => {
+    toast.success(`Cart added successful.`, { position: "top-center", draggable: true });
+  };
 
   const addToCartHandle = (
     id,
@@ -28,6 +33,7 @@ function MenProduct() {
       localStorage.setItem("cart", JSON.stringify([...cartDetail, product]));
       setCartDetail(JSON.parse(localStorage.getItem("cart")));
     }
+    notifyCartAdded();
   };
 
   return (
