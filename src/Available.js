@@ -3,7 +3,7 @@ import React from "react";
 function Available() {
   return (
     <>
-      <div className="d-flex gap-5 p-5">
+      <div className="d-flex flex-column flex-lg-row flex-md-row flex-sm-column gap-4  p-5 mt-4">
         <div className="d-flex align-items-center flex-column">
           <svg
             xmlns="http://www.w3.org/2000/svg"
