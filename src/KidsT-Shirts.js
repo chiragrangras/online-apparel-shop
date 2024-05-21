@@ -6,10 +6,14 @@ import "./Kids.css";
 import { CartDetails } from "./App";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 
 function KidsTShits() {
   const { cartDetail, setCartDetail } = useContext(CartDetails);
 
+  const notifyCartAdded = () => {
+    toast.success(`Cart added successful.`, { position: "top-center", draggable: true});
+  }
   const addToCartHandle = (id, name, size, price) => {
     let product = cartDetail.find((product) => product.id === id);
 
@@ -22,6 +26,7 @@ function KidsTShits() {
       localStorage.setItem("cart", JSON.stringify([...cartDetail, product]));
       setCartDetail(JSON.parse(localStorage.getItem("cart")));
     }
+    notifyCartAdded();
   };
   return (
     <>
